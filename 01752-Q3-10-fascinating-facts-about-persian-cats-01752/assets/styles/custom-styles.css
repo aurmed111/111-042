@@ -1,0 +1,223 @@
+/* Desktop devices (tablets, 770px and up) */
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(0.8, 0.8);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.zoom-in-out {
+    animation: zoom-in-zoom-out 1.5s ease infinite;
+}
+
+@media only screen and (min-width:770px) {
+
+
+    .mobile-view {
+        display: none;
+    }
+
+    .logo-top {
+        width: 18vw;
+        margin-top: 2vw;
+    }
+
+    .d-phone-styles {
+        margin: 10vw 0vw -2vw 9vw;
+        width: 32vw;
+    }
+
+    .d-claim-styles {
+        margin: -1vw -7vw 0vw 8vw;
+        width: 15vw;
+    }
+
+    .d-sign-up-today-styles {
+        margin: 1vw 0vw 0vw 9vw;
+        width: 36vw;
+    }
+
+    .d-col-mid-styles {
+        margin-top: 10vw;
+    }
+
+    .d-register-now-styles {
+        margin: 0vw 0vw 0vw 13vw;
+        width: 25vw;
+
+    }
+
+    .d-chip1-styles {
+        margin: 0vw 0vw 0vw 0vw;
+        width: 20vw;
+    }
+
+    .md-cards-styles {
+        width: 60vw;
+        margin-top: 5vw;
+        content: url(../img/cards.png);
+        margin: 4vw 0vw 0vw 16vw;
+    }
+
+    .md-4-easy-steps-styles {
+        width: 67vw;
+        margin: 2vw 0vw 0vw 0vw;
+        padding: 2vw;
+    }
+
+    .md-chip1-styles {
+        width: 12vw;
+        margin: -86vw 0vw 0vw 70vw;
+    }
+
+    .md-chip2-styles {
+        width: 10vw;
+        margin: -86vw 0vw 0vw 0vw;
+    }
+
+    .card-img-styles {
+        width: 15vw;
+    }
+
+    .md-play-signup-styles {
+        width: 25vw;
+        padding: 2vw;
+    }
+
+    .md-testimonials-section-styles {
+        padding: 1vw;
+    }
+
+    .title-1 {
+        font-weight: bolder;
+        /* font-style: italic; */
+        font-size: 45pt;
+        color: white;
+    }
+
+    .title-2 {
+        font-weight: bolder;
+        font-style: italic;
+        color: #0a60c7;
+        font-size: 45pt;
+    }
+
+    .d-header-section-styles {
+        margin-top: 3vw;
+    }
+
+    .online-platform-section {
+        margin: -1vw 0vw 0vw 0vw;
+        background-color: #0a60c7;
+        padding: 2vw;
+    }
+
+}
+
+/* Tablets devices (tablets, 768px and down) */
+@media only screen and (max-width:769px) {
+
+    .online-platform-section {
+        margin: 0vw 0vw 0vw 0vw;
+        background-color: #0a60c7;
+        padding: 4vw;
+    }
+
+    .logo-top {
+        width: 25vw;
+        margin-top: 5vw;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+
+    .m-phone-styles {
+        width: 40vw;
+        margin: 11vw 0vw 0vw -1vw;
+    }
+
+    .m-claim-styles {
+        width: 27vw;
+        margin: -28vw 0vw 0vw 12vw;
+    }
+
+    .m-sign-up-today-styles {
+        width: 50vw;
+        margin: -52vw 0vw 0vw 41vw;
+    }
+
+    .m-register-now-styles {
+        width: 45vw;
+        margin: -28vw 0vw 0vw 40vw;
+    }
+
+    .m-chip1-styles {
+        width: 25vw;
+        margin: -40vw 0vw 0vw 28vw;
+    }
+
+    .md-cards-styles {
+        margin-top: -12vw;
+        width: 73vw;
+        content: url(../img/cards-mobile.png);
+    }
+
+    .md-4-easy-steps-styles {
+        width: 90vw;
+        margin: 0vw 0vw 0vw 0vw;
+        padding: 2vw;
+    }
+
+    .md-chip1-styles {
+        width: 20vw;
+        margin: -146vw 0vw 0vw 73vw;
+    }
+
+    .md-chip2-styles {
+        width: 18vw;
+        margin: -136vw 0vw 0vw -3vw;
+    }
+
+    .md-play-signup-styles {
+        width: 60vw;
+        padding: 2vw;
+    }
+
+    .md-testimonials-section-styles {
+        padding: 4vw;
+    }
+
+    .title-1 {
+        font-weight: bolder;
+        /* font-style: italic; */
+        font-size: 25pt;
+        line-height: 0vw;
+        color: white;
+    }
+
+    .title-2 {
+        font-weight: bolder;
+        font-style: italic;
+        color: #0a60c7;
+        font-size: 25pt;
+        line-height: 0vw;
+    }
+
+    .m-header-section-styles {
+        margin-top: 10vw;
+    }
+
+    .platform-img-styles {
+        width: 72%;
+        margin: auto;
+    }
+}
