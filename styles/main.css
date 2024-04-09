@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('./styles/Montserrat-Medium.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('./styles/Montserrat-ExtraBold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('./styles/Futura-Bold.otf') format('opentype');
+}
+
+body {
+    background-color: #bdbdbd;
+    font-family: 'Montserrat-Medium';
+    font-weight: 500;
+}
+
