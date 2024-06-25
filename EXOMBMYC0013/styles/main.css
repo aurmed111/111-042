@@ -1,0 +1,27 @@
+@media only screen and (min-height: 700px) and (max-height: 800px) and (max-width: 490px) {
+    #spin-wrapper {
+        bottom: -10%;
+    }
+
+    #sg-wrapper {
+        top: -57%;
+    }
+
+    #ron-wrapper {
+        top: -59%;
+    }
+}
+
+@media only screen and (max-height: 760px) and (max-width: 490px) {
+    #spin-wrapper {
+        bottom: -20%;
+    }
+
+    #sg-wrapper {
+        top: -55%;
+    }
+
+    #ron-wrapper {
+        top: -57%;
+    }
+}
