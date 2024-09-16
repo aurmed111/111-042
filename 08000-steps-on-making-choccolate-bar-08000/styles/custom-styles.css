@@ -1,0 +1,31 @@
+.modal-content {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+
+#AlertBoxContainer {
+    position: fixed;
+    left: 2vw;
+    bottom: -5vw;
+    z-index: 99;
+}
+
+/* desktops, tablets devices (768px and up) */
+@media only screen and (min-width:768px) {
+    .alertImg {
+        width: 30vw;
+    }
+}
+
+/* Tablets, phones devices (767.98px and down) */
+@media only screen and (max-width:767.98px) {
+    .alertImg {
+        width: 65vw;
+    }
+
+    #AlertBoxContainer {
+        left: -5vw;
+        bottom: -12vw;
+    }
+}
